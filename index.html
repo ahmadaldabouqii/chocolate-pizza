@@ -12,24 +12,26 @@
 </head>
 
 <body>
-    <header class="holder bar">
-        <img src="img/logo.png" id="logo">
-        <h3 id="delicious">Delicious</h3>
-        <p id="food">THE BEST FOOD BLOG ON THE WEB.</p>
-        <section id="sc_ic">
-            <img class="ic" src="img/fb-icon.png">
-            <img class="ic" src="img/twit-icon.png">
-            <img class="ic" src="img/gp-icon.png">
-            <img class="ic" src="img/insta-icon.png">
-            <img class="ic" src="img/flic-icon.png">
-            <img class="ic" src="img/pint-icon.png">
-            <img class="ic" src="img/rss-icon.png">
-            <img class="ic" src="img/mail-icon.png">
-        </section>
+    <header>
+        <nav id="nav">
+            <img src="img/logo.png" id="logo">
+            <h3 id="delicious">Delicious</h3>
+            <p id="food">THE BEST FOOD BLOG ON THE WEB.</p>
+            <section id="sc_ic">
+                <img class="ic" src="img/fb-icon.png">
+                <img class="ic" src="img/twit-icon.png">
+                <img class="ic" src="img/gp-icon.png">
+                <img class="ic" src="img/insta-icon.png">
+                <img class="ic" src="img/flic-icon.png">
+                <img class="ic" src="img/pint-icon.png">
+                <img class="ic" src="img/rss-icon.png">
+                <img class="ic" src="img/mail-icon.png">
+            </section>
+        </nav>
+
         <section id="fix"></section>
     </header>
-    <main class="container">
-        <!-- STRIPE LINE -->
+    <main id="container">
         <h2 class="line"></h2>
         <h3 id="chocolate-pizza">Chocolate Pizza</h3>
         <h3 id="posted_in">Posted on 15 Dec 2013 / Desserts</h3>
@@ -54,10 +56,10 @@
             </p>
         </section>
         <section>
-            <img src="img/list-bg.png" id="list-img">
+            <img src="img/list-bg.png" id="recipe-img">
             <form id="form">
                 <fieldset>
-                    <input type="checkbox" value="1">
+                    <input type="checkbox">
                     <label>1 1/2 cups milk</label>
                     <br />
                     <input type="checkbox">
@@ -108,7 +110,7 @@
         </section>
     </main>
     <footer>
-        <section id="footer-section-1">
+        <section id="footer-section">
             <h4 id="first_line"></h4>
             <img src="img/small-logo.png" id="footer-logo">
             <h4 id="second_line"></h4>
@@ -118,6 +120,7 @@
             <p id="publish">Proudly published with Ghost.</p>
         </section>
     </footer>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

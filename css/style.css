@@ -2,11 +2,11 @@
     box-sizing: border-box;
 }
 
-.container , .bar{
+#container , #nav{
     margin: 0 auto;
     width: 75%;
     position: relative;
-    margin-top: 2em;
+    margin-top: 2vh;
 }
 
 #logo {
@@ -28,10 +28,14 @@
     color: rgb(184, 179, 179);
     font-family: sans-serif;
     font-size: xx-small;
-    letter-spacing: 0.2em;
-    margin-left: 5.5em;
-    margin-top: 6.1em;
+    letter-spacing: 0.2vh;
+    margin-left: 5.5vh;
+    margin-top: 4.9vh;
     position: absolute;
+}
+
+#fix {
+    overflow:auto;
 }
 
 #sc_ic {
@@ -42,23 +46,13 @@
     width: 3vh;
 }
 
-#fix {
-    overflow:auto;
-}
-
 .tips {
     color: rgb(128, 110, 110);
     font-family: serif;
     font-size: large;
-    line-height: 2vw;
-    margin-top: 2vw;
+    line-height: 2vh;
+    margin-top: 4.5vh;
     text-indent: 3%;
-}
-
-
-h2 {
-    margin: 3em 0 1em 0;
-    padding: 8px;
 }
 
 #chocolate-pizza {
@@ -66,25 +60,26 @@ h2 {
     font-size: 35px;
     font-weight: 700;
     letter-spacing: -2px;
-    margin-bottom: 1vw;
+    margin-bottom: 0vh;
 }
 
 #posted_in {
-    color: lightgray;
+    color: rgb(197, 185, 185);
     display: inline;
     margin: 0px;
+    font-size: 12px;
     font-family:sans-serif;
     text-transform: uppercase;
 }
 
 #pizza_img {
-    margin-top: 2vw;
+    margin-top: 1vh;
     width: 100%;
 }
 
 #print_ic {
     float: right;
-    width: 1.25em;
+    width: 2.5vh;
     padding-top: 4px;
 }
 
@@ -100,8 +95,8 @@ h2 {
     text-transform: uppercase;
 }
 
-#list-img {
-    margin-top: 3.5vw;
+#recipe-img {
+    margin-top: 3.5vh;
     width: 100%;
 }
 
@@ -121,6 +116,8 @@ input[type=checkbox]:checked + label {
 .line {
     background-image: linear-gradient(45deg, #ffffff 28.57%, #e0e0e0 28.57%, #e0e0e0 50%, #ffffff 50%, #ffffff 78.57%, #e0e0e0 78.57%, #e0e0e0 100%);
     background-size: 10.2px;
+    margin: 3em 0 1em 0;
+    padding: 8px;
 }
 
 #about-her {
@@ -138,7 +135,7 @@ input[type=checkbox]:checked + label {
 #her-name {
     font-size: x-large;
     font-weight: 700;
-    margin-bottom: .75em;
+    margin-bottom: 1vh;
     margin-left: 15%;
 }
 
@@ -151,7 +148,6 @@ input[type=checkbox]:checked + label {
 
 #share-btn-section {
     display: inline;
-    
 }
 
 #btn-share {
@@ -178,11 +174,14 @@ input[type=checkbox]:checked + label {
     text-align: center;
 }
 
-#first_line {
+#first_line ,#second_line {
     background-color: gray;
     width: 47%;
     display: inline-block;
     margin-bottom: 15px;
+    margin-left: 12px;
+    margin-right: auto;
+    padding: 0.5px;
 }
 
 #footer-logo {
@@ -192,18 +191,6 @@ input[type=checkbox]:checked + label {
     margin: 0 6px;
 }
 
-#second_line {
-    background-color: gray;
-    width: 47%;
-    display: inline-block;
-    margin-bottom: 15px;
-}
-
-h4 {
-    margin: 6em 0 4em 0;
-    padding: 0.6px;
-}
-
 #publish {
-    margin-bottom: 5em;
+    margin-bottom: 5vh;
 }
